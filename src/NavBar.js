@@ -1,23 +1,27 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import Burger from './Burger';
 
-const NavBar = () => (
-  <nav>
-    <ul>
-      <li>
-        <Link to='/'>Home</Link>
-      </li>
-      <li>
-        <Link to='/trade'>Trade</Link>
-      </li>
-      <li>
-        <Link to='/about'>About</Link>
-      </li>
-      <li>
-        <Link to='/info'>Info</Link>
-      </li>
-    </ul>
-  </nav>
-);
+const Nav = styled.nav`
+  width: 100%;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    padding: 15px 0;
+  }
+`
 
-export default NavBar;
+const Navbar = () => {
+  return (
+    <Nav>
+      <div className="logo">
+        SwapMe Logo
+      </div>
+      <Burger />
+    </Nav>
+  )
+}
+
+export default Navbar
