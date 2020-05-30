@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ArticlesListPage from './pages/ArticlesListPage';
-import ArticlePage from './pages/ArticlePage';
+import InfoPage from './pages/InfoPage';
+import TradePage from './pages/TradePage';
 import NotFoundPage from './pages/NotFoundPage';
 import NavBar from './NavBar';
 import './App.css';
@@ -16,14 +12,14 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className='App'>
           <NavBar />
-          <div id="page-body">
+          <div id='page-body'>
             <Switch>
-              <Route path="/" component={HomePage} exact />
-              <Route path="/about" component={AboutPage} />
-              <Route path="/articles-list" component={ArticlesListPage} />
-              <Route path="/article/:name" component={ArticlePage} />
+              <Route path='/' component={HomePage} exact />
+              <Route path='/about' component={AboutPage} />
+              <Route path='/info' component={InfoPage} />
+              <Route path='/trade' component={TradePage} />
               <Route component={NotFoundPage} />
             </Switch>
           </div>
