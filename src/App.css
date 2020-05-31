@@ -56,3 +56,31 @@ nav a:hover {
     margin: auto;
     padding-top: 64px;
 }
+
+.Collapsible {
+    background-color: rgb(177, 177, 177);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+}
+
+.active,
+.Collapsible:hover {
+    background-color: rgb(131, 131, 131);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #d8d8d8;
+}
+
+.infoheader {
+    background-color: #414141;
+}
