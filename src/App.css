@@ -84,3 +84,9 @@ nav a:hover {
 .infoheader {
     background-color: #414141;
 }
+
+.content-deals {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 200px;
+}
