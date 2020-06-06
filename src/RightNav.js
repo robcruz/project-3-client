@@ -36,7 +36,7 @@ const RightNav = ({ open }) => {
         <Link to='/info'>Info</Link>
       </li>
       <li>
-        <Link to='/trade'>Use App</Link>
+        <Link to='/trade'>Swap</Link>
       </li>
     </Ul>
   )

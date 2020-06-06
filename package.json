@@ -1,9 +1,10 @@
 {
-    "name": "my-blog",
+    "name": "swap-me",
     "version": "0.1.0",
     "private": true,
     "proxy": "http://localhost:8000/",
     "dependencies": {
+        "@bumaga/tabs": "^0.2.0",
         "@kunukn/react-collapse": "^1.2.7",
         "react": "^16.8.6",
         "react-collapsible": "^2.8.0",
