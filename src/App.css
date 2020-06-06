@@ -185,9 +185,7 @@ nav a:hover {
 }
 
 .namestyle {
-    display: inline;
     position: relative;
-    top: 10px;
     animation: mymove 1.9s;
     z-index: -1;
 }
@@ -199,4 +197,104 @@ nav a:hover {
     to {
         left: 0px;
     }
+}
+
+.form {
+    background: #ececec;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid #959595;
+}
+
+input:focus {
+    border-bottom: 2px solid #b3b2b2
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #3c3c3d
+}
+
+span {
+    margin: 0 5px 0 15px
+}
+
+.infohelp {
+    height: 56px;
+    color: rgb(34, 34, 34);
+    width: 100%;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.infostyle {
+    animation: mymove 1.9s;
+    z-index: -1;
+    position: relative;
 }
