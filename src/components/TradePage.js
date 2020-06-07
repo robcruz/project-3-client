@@ -1,9 +1,34 @@
 import React from "react";
 
 export default props => (
-    <div>
-        <p className="App-intro">{props.text}</p>
-        <p className="App-intro">{props.text2}</p>
+    <div className="Username">
+        <h1 className="namestyle">Welcome, Your Name</h1>
+        <div className="Dashboard">
+
+            <div>
+                <h1>_______SWAP__________________________</h1>
+            </div>
+            <div className="contentbox">
+                <hr></hr>
+                <h1>Post Items for trade here!</h1>
+                <hr></hr>
+                <div class="scrollable">
+                    <div class="postContainer">
+
+                    <form class="form" id="post-form">
+                    <p type="Item:"><input placeholder="Item Name."></input></p>
+                    <p type="Description:"><input placeholder="Item Description"></input></p>
+                    <p type="Trade for:"><input placeholder="What Item would you like to trade for?"></input></p>
+                    <button id="post-btn">POST ITEM</button>
+                    </form>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
 
     </div>
 );
