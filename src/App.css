@@ -52,7 +52,10 @@ nav a:hover {
 }
 
 #page-body {
-    max-width: 700px;
+    max-width: 1000px;
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
     margin: auto;
     padding-top: 64px;
 }
