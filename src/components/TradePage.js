@@ -2,11 +2,11 @@ import React from "react";
 
 export default props => (
     <div className="Username">
-        <h1 className="namestyle">Welcome, Your Name</h1>
+        <h1 className="namestyle">Upload Your Items Here!</h1>
         <div className="Dashboard">
 
             <div>
-                <h1>_______SWAP__________________________</h1>
+                <h1>Swap</h1>
             </div>
             <div className="contentbox">
                 <hr></hr>
@@ -15,12 +15,12 @@ export default props => (
                 <div class="scrollable">
                     <div class="postContainer">
 
-                    <form class="form" id="post-form">
-                    <p type="Item:"><input placeholder="Item Name."></input></p>
-                    <p type="Description:"><input placeholder="Item Description"></input></p>
-                    <p type="Trade for:"><input placeholder="What Item would you like to trade for?"></input></p>
-                    <button id="post-btn">POST ITEM</button>
-                    </form>
+                        <form class="form" id="post-form">
+                            <p type="Item:"><input placeholder="Item Name."></input></p>
+                            <p type="Description:"><input placeholder="Item Description"></input></p>
+                            <p type="Trade for:"><input placeholder="What Item would you like to trade for?"></input></p>
+                            <button id="post-btn">POST ITEM</button>
+                        </form>
 
                     </div>
                 </div>
