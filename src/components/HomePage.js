@@ -6,7 +6,7 @@ export default props => (
         <div className="Dashboard">
 
             <div>
-                <h1>_______DashBoard__________________________</h1>
+                <h1>DashBoard</h1>
             </div>
             <div className="contentbox">
                 <hr></hr>
